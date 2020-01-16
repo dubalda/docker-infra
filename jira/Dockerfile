@@ -5,7 +5,7 @@ FROM nearpod/alpine-jvm:3.8-adoptopenjdk-jdk8
 
 ARG JIRA_HOME=/var/atlassian/jira
 ARG JIRA_INSTALL=/opt/atlassian/jira
-ARG JIRA_VERSION=7.4.2
+ARG JIRA_VERSION=7.1.4
 ARG JDBC_MYSQL_VERSION=5.1.47
 ARG JDBC_POSTGRES_VERSION=42.2.5
 
